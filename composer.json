@@ -1,10 +1,10 @@
 {
-  "name": "sachiano/sluggable",
+  "name": "corazzi/sluggable",
   "description": "Automatically create slugs for your Eloquent models by hooking into the creating event",
   "type": "library",
   "autoload": {
     "psr-4": {
-      "Sachiano\\Sluggable\\": "src/"
+      "Corazzi\\Sluggable\\": "src/"
     }
   },
   "license": "MIT",

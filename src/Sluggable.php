@@ -1,4 +1,4 @@
-<?php namespace Sachiano\Sluggable;
+<?php namespace Corazzi\Sluggable;
 
 trait Sluggable
 {

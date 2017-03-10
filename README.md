@@ -2,16 +2,16 @@
 Automatically create slugs for your Eloquent models by hooking into the creating event
 
 ## Installation
-Simply run `composer require sachiano/sluggable` in your Laravel project.
+Simply run `composer require Corazzi/sluggable` in your Laravel project.
 
 ## Usage
-To add automatic slug generation to a model, use the `Sachiano\Sluggable\Sluggable` trait.
+To add automatic slug generation to a model, use the `Corazzi\Sluggable\Sluggable` trait.
 
 ```php
 namespace Acme\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Sachiano\Sluggable\Sluggable;
+use Corazzi\Sluggable\Sluggable;
 
 class Post extends Model
 {
@@ -37,7 +37,7 @@ If you would like to use different column names for your origin string and the s
 namespace Acme\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Sachiano\Sluggable\Sluggable;
+use Corazzi\Sluggable\Sluggable;
 
 class Post extends Model
 {
@@ -92,4 +92,4 @@ $post->slug; // explicitly-setting-slugs-with-sluggable
 ```
 
 ### Empty origin
-If the origin column is empty, a `Sachiano\Sluggable\EmptyOriginException` will be thrown.
+If the origin column is empty, a `Corazzi\Sluggable\EmptyOriginException` will be thrown.

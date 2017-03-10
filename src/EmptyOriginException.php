@@ -1,6 +1,6 @@
 <?php
 
-namespace Sachiano\Sluggable;
+namespace Corazzi\Sluggable;
 
 class EmptyOriginException extends \Exception
 {
